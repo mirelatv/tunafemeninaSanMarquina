@@ -1,0 +1,72 @@
+body{
+  font-family: 'Lato', sans-serif!important;
+}
+.title{
+    
+    padding: 20px 0px 20px 0px;
+    color: rgb(117, 14, 14);
+  }
+  
+  .title hr{
+    width: 70%; 
+  }
+  
+  .premios h2 {
+    font-family: 'Zilla Slab', serif;
+  }
+  
+  .citacao {
+    margin-top: 50px;
+  }
+  
+  .imagePremios{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+  }
+
+  .containerPileta{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+  }
+  .pileta{
+      width: 100vh;
+      height: 400px;
+      margin-bottom: 30px;
+    
+  }
+  .citacao{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: cursive;
+
+  }
+  .lifeartistica{
+    color:rgb(212, 100, 36); 
+  }
+  
+  .listaPremios {
+    text-decoration: none;
+    list-style: none;
+  }
+  li{
+    list-style: none;
+  }
+  
+
+  @media (max-width: 540px) { 
+
+  .textFooter{
+    font-size: 3vh;
+  }
+
+  .title {
+    
+    padding: 152px 0px 20px 0px;
+    color: rgb(117, 14, 14);
+}
+}

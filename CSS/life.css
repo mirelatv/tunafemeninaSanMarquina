@@ -1,0 +1,654 @@
+/*SEGUNDO HTML LIFE */
+
+body{
+  font-family: 'Lato', sans-serif!important;
+	text-align: justify;
+	margin: 0%;
+	padding: 0%;
+}
+
+
+header {
+  background-color: black
+}
+
+.rounded {
+  width: 7%;
+}
+
+ ul li{
+   padding-bottom: 3vh;
+   
+ }
+.btn-outline-warning{
+	border: 1px solid rgb(240, 220, 108);
+
+}
+.btn-outline-warning:hover{
+	border:1px solid rgb(235, 229, 199) ;
+	background-color: transparent !important;
+
+}
+
+
+li a{
+  color: white; 
+ }
+
+ul li  a:hover {
+  color: #d79f7f;
+}
+.linkActive{
+  color: #d79f7f;
+}
+.linkActive:hover{
+  color:white;
+}
+
+.granate{
+
+  background: rgb(109, 26, 26);
+}
+
+.dropdown-menu{
+	background-color:black;
+	
+}
+.dropdown-item{
+	color: white;
+}
+/* CAROUSEL*/
+.carousel{
+	top:10vh;
+
+}
+
+.foto3{
+	height: 520px;
+}
+
+
+.life{
+	background-color: rgb(235, 229, 229);
+}
+
+/*motivacion*/
+
+/* videos*/
+
+.videosContenido{
+	margin: 50px 20px 50px 20px;
+}
+.experience{
+margin-top: -60px;
+	
+
+}
+.textExperience{
+	font-style: oblique;
+}
+
+.containervideotestimony{
+
+	justify-content: center;
+	
+	
+}
+.videoConvocatoria{
+	
+	width: inherit;
+	
+}
+.experienceTitle{
+	margin-top: 20px;
+}
+.textExperience{
+  text-align: justify;
+
+
+}
+
+/*noticias*/
+.news{
+  margin-top:30vh;
+	margin-left:11vh;
+	background-color:white;
+	border: 2px solid white;
+}
+
+
+ /*life**/
+ /*Integrantes*/
+ .container {
+  
+  margin: 40px auto;
+  display: grid;
+  grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+	font-family: 'Roboto', sans-serif;
+	
+
+}
+.titleAhijadas{
+  color:rgb(109, 26, 26);
+	letter-spacing: 0.5rem;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.integrantes{
+	width: 270px;
+	height: 170px;
+}
+.box {
+  position: relative;
+}
+.box::after,
+.box::before {
+  content: "";
+  position: absolute;
+  opacity: 1;
+  transition: all 0.4s ease-out;
+  top: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+}
+.box::before {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: scale(0, 1);
+}
+.box::after {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  transform: scale(1, 0);
+}
+.box:hover::before {
+  background: rgba(0, 0, 0, 1);
+  transform: scale(1.05, 1);
+}
+.box:hover::after {
+  transform: scale(1, 1.05);
+}
+.box .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  color: white;
+	opacity: 0;
+	
+}
+.box:hover .content {
+  opacity: 1;
+}
+.box .content h2,
+.box .content p {
+  padding: 10px;
+	font-size: 1rem;
+	letter-spacing: 0.2rem;
+}
+.box:hover img {
+  opacity: 0.4;
+}
+/*FIN DE INTEGRANTES*/
+
+/*REDES SOCIALES*/
+
+.icono a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.contenedor-redes-sociales {
+
+	width: 50px;
+	right:  0;
+	position: fixed;
+	top: 50vh;
+	margin-left: 5px;
+}
+
+.icono {
+	top: 50%;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.icono-primary {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background: #3b5998;
+	border-radius: 50%;
+	position: relative;
+	z-index: 1;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+
+	-webkit-box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+	box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+}
+
+/* fin de  redes sociales*/
+
+/* footer*/
+
+/*galeria*/
+.frame {
+  
+  
+  width: 400px;
+  height: 400px;
+	margin-bottom: 10%;
+	
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.box-galery {
+  width: 100%;
+  height: 100%;
+  grid-gap: 5px;
+  position: relative;
+  z-index: 1;
+}
+.box-galery > [type=checkbox] {
+  display: none;
+}
+.box-galery .imgs {
+  --zi: calc(400px / 3 - 3px);
+  width: var(--zi);
+  height: var(--zi);
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 1s;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+.box-galery .img1 {
+  background-image: url("../assets/images/GALERIA.jpg");
+}
+.box-galery .img2 {
+  left: var(--zi);
+  background-image: url("../assets/images/GALERIA2.jpg");
+  left: 0;
+  right: 0;
+}
+.box-galery .img3 {
+  background-image: url("../assets/images/GALERIA3.jpg");
+  right: 0;
+}
+.box-galery .img4 {
+  background-image: url("../assets/images/galp10.jpg");
+  top: 0;
+  bottom: 0;
+}
+.box-galery .img5 {
+  background-image: url("../assets/images/gal.jpg");
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.box-galery .img6 {
+  background-image: url("../assets/images/galp11.jpg");
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.box-galery .img7 {
+  background-image: url("../assets/images/galp7.jpg");
+  bottom: 0;
+}
+.box-galery .img8 {
+  background-image: url("../assets/images/galp9.jpg");
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.box-galery .img9 {
+  background-image: url("../assets/images/galp3.jpg");
+  right: 0;
+  bottom: 0;
+}
+/*galeria2*/
+.box-galery .img10 {
+  background-image: url("../assets/images/galeria5.jpg");
+}
+.box-galery .img11 {
+  left: var(--zi);
+  background-image: url("../assets/images/galeria6.jpg");
+  left: 0;
+  right: 0;
+}
+.box-galery .img12 {
+  background-image: url("../assets/images/gal61.jpg");
+  right: 0;
+}
+.box-galery .img13 {
+  background-image: url("../assets/images/galeriaa.jpg");
+  top: 0;
+  bottom: 0;
+}
+.box-galery .img14 {
+  background-image: url("../assets/images/galeriab.jpg");
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.box-galery .img15 {
+  background-image: url("../assets/images/galeriac.jpg");
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.box-galery .img16 {
+  background-image: url("../assets/images/galeriad.jpg");
+  bottom: 0;
+}
+.box-galery .img17 {
+  background-image: url("../assets/images/galeriae.jpg");
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.box-galery .img18 {
+  background-image: url("../assets/images/galeriaf.jpg");
+  right: 0;
+  bottom: 0;
+}
+/*fingaleria2*/
+/*galeria3*/
+.box-galery .img19 {
+  background-image: url("../assets/images/gal40.jpg");
+}
+.box-galery .img20 {
+  left: var(--zi);
+  background-image: url("../assets/images/gal60.jpg");
+  left: 0;
+  right: 0;
+}
+.box-galery .img21 {
+  background-image: url("../assets/images/gal63.jpg");
+  right: 0;
+}
+.box-galery .img22 {
+  background-image: url("../assets/images/galeriag.jpg");
+  top: 0;
+  bottom: 0;
+}
+.box-galery .img23 {
+  background-image: url("../assets/images/galeriai.jpg");
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.box-galery .img24 {
+  background-image: url("../assets/images/galeriah.jpg");
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.box-galery .img25 {
+  background-image: url("../assets/images/galeriaj.jpg");
+  bottom: 0;
+}
+.box-galery .img26 {
+  background-image: url("../assets/images/galeriak.jpg");
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.box-galery .img27 {
+  background-image: url("../assets/images/galerial.jpg");
+  right: 0;
+  bottom: 0;
+}
+/*fin de3*/
+
+
+#btn1:checked ~ .img1 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn2:checked ~ .img2 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn3:checked ~ .img3 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn4:checked ~ .img4 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn5:checked ~ .img5 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn6:checked ~ .img6 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn7:checked ~ .img7 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn8:checked ~ .img8 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn9:checked ~ .img9 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+/*galery2 button*/
+
+#btn10:checked ~ .img10 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn11:checked ~ .img11 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn12:checked ~ .img12 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn13:checked ~ .img13 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn14:checked ~ .img14 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn15:checked ~ .img15 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn16:checked ~ .img16 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn17:checked ~ .img17 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn18:checked ~ .img18 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+/*fin galery2 button*/
+/*gallery button */
+#btn19:checked ~ .img19 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn20:checked ~ .img20 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn21:checked ~ .img21 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn22:checked ~ .img22 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn23:checked ~ .img23 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn24:checked ~ .img24 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn25:checked ~ .img25 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn26:checked ~ .img26 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn27:checked ~ .img27 {
+  width: 400px;
+  height: 400px;
+  z-index: 10;
+}
+
+
+
+.containerLife{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center
+
+}
+
+/*titulo para vida detuna con efecto*/
+
+
+
+
+.footer{
+  background-image: url("../assets/images/footer.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: inherit;
+	
+  
+}
+
+.logo{
+	margin: 5vh 10vh;
+	border-radius: 50%;
+	width: 130%;
+
+		
+}
+
+.FooterContacto {
+	color: #fff;
+	text-align: center;
+	margin-top: 20%;
+	font-size: 3vh;
+}
+
+.FooterContacto a{
+	color:white;
+	letter-spacing: 0.8rem;
+}
+/* fin de footer*/
+
+@media (max-width: 540px) { 
+
+  .textFooter{
+    font-size: 3vh;
+  }
+
+  .experience{
+    margin-top: 20px;
+      
+}
+}
