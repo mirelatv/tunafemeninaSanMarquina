@@ -553,6 +553,10 @@ ul li  a:hover {
     overflow: hidden;
     margin-top: 16vh;
 }
+
+.carrouselImg{
+	height: 66vh;
+}
 	.rise-text{
 		margin-top: 80px;
 	}
@@ -569,8 +573,8 @@ ul li  a:hover {
 
 .titleReseña {
 	color: #cc7746 !important;
-	font-size: 20px;
-	margin-top: -42px;
+	font-size: 20px !important;
+	margin-top: 0px;
 		
 		  
 	}
@@ -584,7 +588,7 @@ ul li  a:hover {
 	.secondText{
 		text-align: justify;
     line-height: 2.5rem;
-    margin-left: 1em;
+    
     margin-top: -35px;
 }
 

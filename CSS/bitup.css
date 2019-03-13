@@ -7,10 +7,18 @@ body {
   padding: 0;
 }
 .bitUp{
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
+  margin-top: 8vh;
+  color: black!important;
+  font-weight: bold;
+  text-shadow:rgb(240, 85, 111) 0.1em 0.1em 0.2em;
   
 }
+.listVineta{
+list-style: lower-alpha;
+}
+
 
 .contenedor {
   color: #ffffff;
@@ -103,7 +111,7 @@ body {
 
 .contenido {
   width: 80%;
-  margin: 0 auto;
+  margin: -60px auto;
   border: 0px solid black;
   z-index: 10;
 }
