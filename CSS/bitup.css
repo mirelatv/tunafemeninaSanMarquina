@@ -15,8 +15,9 @@ body {
   text-shadow:rgb(240, 85, 111) 0.1em 0.1em 0.2em;
   
 }
-.listVineta{
-list-style: lower-alpha;
+.listVineta li{
+list-style-type: circle !important;
+
 }
 
 
@@ -117,7 +118,7 @@ list-style: lower-alpha;
 }
 
 li {
-  display: inline-block;
+ 
   list-style-type: none;
   padding: 1em;
  
@@ -249,12 +250,12 @@ li span {
 .containerAgrupation{
   text-align: center;
   letter-spacing: 0.2rem;
-  font-size: 2vh;
+  
   
   
 }
 .containerAgrupation li{
-  color: white;
+  
   font-size: 2vh;
   text-align: justify!important;
   
