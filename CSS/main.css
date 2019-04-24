@@ -507,6 +507,24 @@ ul li  a:hover {
    letter-spacing: 0.2rem;
    
 }
+.footer{
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.ContainerLogoFooter{
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center !important;
+}
+.LogoSmFooter{
+	height: 280px;
+	width: 140px;
+	margin-right: 20vh;
+	padding-top:8vh;
+	padding-bottom:8vh
+
+}
 /*REDES SOCIALES*/
 
 .icono a {
@@ -562,6 +580,8 @@ ul li  a:hover {
 	}
 	.textFooter{
 		font-size: 3vh;
+		margin-bottom: 14vh;
+    margin-top: -6vh;
 	}
 	
 	.textAhijadas{
@@ -607,10 +627,10 @@ ul li  a:hover {
 }
 
 .LogoSmFooter{
-  width: 128px;
-	height: 347px; 
-	padding-right: 0% !important;
+	width: 152px;
   padding-top: 8vh;
+	padding-bottom: 8vh;
+	margin-right: 0px;
  
 }
 	}
