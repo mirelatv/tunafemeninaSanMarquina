@@ -159,42 +159,6 @@ li span {
   }
 }
 
-@media (max-width: 540px) {  
-  
-  .contenedor {
-    margin-top: 100%;
-  }
-  .desaparecer {
-      display: none;
-  }
-  .p1{
-      font-size: 20px;
-  }
-
-  .titleReseña {
-      color: #cc7746 !important;
-      font-size: 20px;
-      margin-top: -13px;
-  }
-  .afiche img {
-      margin-top: -25%!important;
-    }
-  .bitup2012{
-    margin-top:40px;
-  }
-
-  .galeryBitup {
-    width: 95px;
-}
-.containerGaleryBienal{
-  margin-top: 33px;
-  
-}
-.galeryBip{
-  padding-left: 0px;
-}
-    
-}
 
 
 .logoBienal {
@@ -308,4 +272,51 @@ li span {
   --zi: calc(900px / 3 - 3px);
   width: var(--zi);
   height: var(--zi);
+}
+@media (max-width: 540px) {  
+  
+  .contenedor {
+    margin-top: 100%;
+  }
+  .desaparecer {
+      display: none;
+  }
+  .p1{
+      font-size: 20px;
+  }
+
+  .contador{
+    margin-top: 37%;
+  }
+  .bitUp{
+    margin-top: 26px!important;
+  }
+
+  .titleReseña {
+      color: #cc7746 !important;
+      font-size: 20px;
+      margin-top: -13px;
+  }
+  .afiche img {
+    margin-top: -9%;
+    margin-bottom: 9%;
+      --zi: calc(700px / 3 - 3px);
+    width: var(--zi);
+    height: var(--zi);
+    }
+  .bitup2012{
+    margin-top:40px;
+  }
+
+  .galeryBitup {
+    width: 95px;
+}
+.containerGaleryBienal{
+  margin-top: 33px;
+  
+}
+.galeryBip{
+  padding-left: 0px;
+}
+    
 }
