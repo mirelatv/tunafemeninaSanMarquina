@@ -3,8 +3,42 @@
 /*FUNCION ANIMATION TITLE*/
 
 
-  
-/* inicio de  Scroll- section menu se torne granate*/
+$(document).ready(function () {
+
+
+  'use strict';
+
+  $(window).on('scroll', function () {
+
+      if ($(this).scrollTop() >= 218) {
+          $('nav').addClass('nav-fixed');
+          $('.loguito').addClass('logazo')
+         $('main').css('margin-top', '70px');
+          
+      } else {
+          $('nav').removeClass('nav-fixed');
+          $('main').css('margin-top', '0');
+          $('.loguito').removeClass('logazo')
+      }
+
+  });
+});
+
+/*para integrantes*/
+
+var snippet = [].slice.call(document.querySelectorAll('.hover'));
+if (snippet.length) {
+  snippet.forEach(function (snippet) {
+    snippet.addEventListener('mouseout', function (event) {
+      if (event.target.parentNode.tagName === 'figure') {
+        event.target.parentNode.classList.remove('hover')
+      } else {
+        event.target.parentNode.classList.remove('hover')
+      }
+    });
+  });
+}
+/* inicio de  Scroll- section menu se torne granate
 
 $(window).scroll(function () {
   if ($("#menu").offset().top >10) {
@@ -14,7 +48,7 @@ $(window).scroll(function () {
   }
 
 }
-)
+)*/
 /*funcion para que el hover  en fondo granate  sea blanco
 $(window).scroll(function () {
   if ($("#caja") && $("#caja").offset().top > 160) {

@@ -3,7 +3,7 @@
   font-family: 'Lato', sans-serif !important;
  }
  .imageContacto{
-   background-image: url('./../assets/images/galeriab.jpg');
+   background-image: url('./../assets/images/vidaestudiante.jpeg');
    background-repeat: no-repeat;
    background-size: cover;
    background-position-y: -200px;
@@ -16,7 +16,7 @@
 .opacity{
   
   text-align: center;
-  margin-top: 25vh;
+  margin-top: 20vh;
   width: 130vh;
   height: 44vh;
   background-color:#6c757d69;
@@ -62,7 +62,7 @@
   
 }
 .imageContacto{
-  background-image: url('./../assets/images/galeriab.jpg');
+  background-image: url('./../assets/images/vidaestudiante.jpeg');
   
   background-position-X: -200px;
   background-position-Y:80PX; 
@@ -74,12 +74,24 @@
   justify-content: center
  
  }
- .opacity{
+ 
   
   
-  height: 36vh;
+ 
+
+  .opacity {
+    text-align: center;
+    margin-top: 39vh;
+    width: 130vh;
+    height: 36vh;
+    background-color: #6c757d69;
+    color: white;
+}
 
 }
+
+
+
 }
   
   
