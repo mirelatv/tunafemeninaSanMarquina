@@ -568,7 +568,7 @@ ul li  a:hover {
 
 
 
-.textAhijadas{
+/*.textAhijadas{
 	text-align: justify;
 	line-height: 2.5rem;
 	font-size: 16px;
@@ -576,7 +576,127 @@ ul li  a:hover {
 	margin-left: 1em;
 	color: black;
 	
+}*/
+
+.tamano{
+	height: 276.50px;
+	width: 430px;
 }
+.tamano2{
+	height: 276.50px;
+	width: 430px;
+	
+
+}
+
+.snip1584 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 310px;
+  max-width: 410px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  background-color: rgba(5, 5, 5, 0.432);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility:hidden;
+
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h5,
+.snip1584 h8 {
+  margin: 0;
+  opacity: -1;
+  letter-spacing: 1px;
+}
+.snip1584 h5 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  
+  font-weight: 200;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.snip1584 h8 {
+  font-weight: normal;
+  
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5,
+.snip1584:hover h8,
+.snip1584.hover h8 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h8,
+.snip1584.hover h8 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
 
 
 /*imagfenes Ahijadas*/
@@ -594,6 +714,12 @@ ul li  a:hover {
 }
 
 
+.colorsubtitle{
+	color: #000;
+	margin-top: -150px;
+	font-size: 35px;
+	margin-left: 100px;
+}
 
 /* Circle */
 
@@ -779,6 +905,9 @@ nav ul li a {
 	display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+.colorsubtitle{
+	display: none;
 }
 
 .LogoSmFooter{
