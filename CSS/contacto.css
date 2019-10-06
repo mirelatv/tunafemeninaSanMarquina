@@ -65,7 +65,7 @@
   background-image: url('./../assets/images/vidaestudiante.jpeg');
   
   background-position-X: -200px;
-  background-position-Y:80PX; 
+  background-position-Y:0PX; 
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
@@ -81,7 +81,7 @@
 
   .opacity {
     text-align: center;
-    margin-top: 39vh;
+    margin-top: 18vh;
     width: 130vh;
     height: 36vh;
     background-color: #6c757d69;
