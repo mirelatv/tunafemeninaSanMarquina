@@ -99,5 +99,6 @@ spans.forEach((span, idx) => {
 /*iNTEGRANTES*/
 
 
+/*para galeria*/
 
 

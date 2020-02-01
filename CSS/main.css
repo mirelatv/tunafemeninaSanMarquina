@@ -70,7 +70,7 @@ a.brand {
 }
 .loguito{
 	
-		width:160px;height:160px;
+		width:140px;height:140px;
 		border-radius:50%;
 		margin-top:-290px;
 
@@ -565,8 +565,21 @@ ul li  a:hover {
 	letter-spacing: 0.2rem;
 	
 }
-
-
+.ListaImpacto{
+	list-style: none; /* Quitamos los marcadores */
+	padding: 0; /* Quitamos el padding por defecto de la lista */
+	margin-left: 10px; 
+	letter-spacing: 0.1rem;
+}
+.listita::before { /* Añadimos contenido antes de cada elemento de la lista */
+	content: "\2022"; /* Insertamos el marcador */
+	padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+	color:rgb(109, 26, 26); 
+}
+.presentacion{
+	letter-spacing: 0.1rem;
+	
+}
 
 /*.textAhijadas{
 	text-align: justify;
@@ -578,37 +591,26 @@ ul li  a:hover {
 	
 }*/
 
-.tamano{
-	height: 276.50px;
-	width: 430px;
-}
-.tamano2{
-	height: 276.50px;
-	width: 430px;
-	
-
-}
-
-.snip1584 {
+.snip1585 {
   font-family: 'Raleway', sans-serif;
   position: relative;
   display: inline-block;
   overflow: hidden;
   margin: 10px;
-  min-width: 310px;
-  max-width: 410px;
+  min-width: 320px;
+  max-width: 450px;
   width: 100%;
   color: #ffffff;
   font-size: 16px;
   text-align: left;
 }
-.snip1584 * {
+.snip1585 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
-.snip1584:before {
+.snip1585:before {
   position: absolute;
   top: 10px;
   bottom: 10px;
@@ -622,13 +624,13 @@ ul li  a:hover {
   -webkit-transition-delay: 0.25s;
   transition-delay: 0.25s;
 }
-.snip1584 img {
+.snip1585 img {
   vertical-align: top;
   max-width: 100%;
   backface-visibility:hidden;
 
 }
-.snip1584 figcaption {
+.snip1585 figcaption {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -640,13 +642,13 @@ ul li  a:hover {
   flex-direction: column;
   justify-content: center;
 }
-.snip1584 h5,
-.snip1584 h8 {
+.snip1585 h5,
+.snip1585 h8 {
   margin: 0;
   opacity: -1;
   letter-spacing: 1px;
 }
-.snip1584 h5 {
+.snip1585 h5 {
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   
@@ -655,7 +657,7 @@ ul li  a:hover {
   transition-delay: 0.05s;
   margin-bottom: 5px;
 }
-.snip1584 h8 {
+.snip1585 h8 {
   font-weight: normal;
   
   padding: 3px 10px;
@@ -664,7 +666,7 @@ ul li  a:hover {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
-.snip1584 a {
+.snip1585 a {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -672,27 +674,27 @@ ul li  a:hover {
   right: 0;
   z-index: 1;
 }
-.snip1584:hover:before,
-.snip1584.hover:before {
+.snip1585:hover:before,
+.snip1585.hover:before {
   top: 10px;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
-.snip1584:hover h5,
-.snip1584.hover h5,
-.snip1584:hover h8,
-.snip1584.hover h8 {
+.snip1585:hover h5,
+.snip1585.hover h5,
+.snip1585:hover h8,
+.snip1585.hover h8 {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
 }
-.snip1584:hover h5,
-.snip1584.hover h5 {
+.snip1585:hover h5,
+.snip1585.hover h5 {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
-.snip1584:hover h8,
-.snip1584.hover h8 {
+.snip1585:hover h8,
+.snip1585.hover h8 {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
@@ -701,17 +703,6 @@ ul li  a:hover {
 
 /*imagfenes Ahijadas*/
 
-
-.sizeAhijadas{
-	width: 100%;
-	height: 300px;
-	display: block;
-	text-align: center;
-	
-}
-.hover15{
-	color: rgb(109, 26, 26);
-}
 
 
 .colorsubtitle{
@@ -753,7 +744,7 @@ ul li  a:hover {
    flex-direction: column;
    justify-content: center;
    text-align: center;
-   font-size: 3vh;
+   font-size: 2.5vh;
    color:white;
    letter-spacing: 0.2rem;
    
@@ -761,15 +752,15 @@ ul li  a:hover {
 .footer{
 	display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .ContainerLogoFooter{
 	display: flex;
-    flex-flow: row wrap;
-    justify-content: center !important;
+  flex-flow: row wrap;
+  justify-content: center !important;
 }
 .LogoSmFooter{
-	height: 280px;
+	height: 241px;
 	width: 140px;
 	margin-right: 20vh;
 	padding-top:8vh;
@@ -815,6 +806,7 @@ ul li  a:hover {
 	box-shadow: 1px 0 1px rgba(0,0,0,0.5);
 }
 
+
 @media (max-width: 540px) {
 	.carousel-inner {
     position: relative;
@@ -855,7 +847,7 @@ nav ul li a {
 	.textFooter{
 		font-size: 3vh;
 		margin-bottom: 14vh;
-    margin-top: -6vh;
+    margin-top: 5vh;
 	}
 	.textImpact {
     
@@ -911,10 +903,11 @@ nav ul li a {
 }
 
 .LogoSmFooter{
-	width: 152px;
-  padding-top: 8vh;
-	padding-bottom: 8vh;
+	width: 123px;
+  padding-top: 0vh;
+	padding-bottom:12vh;
 	margin-right: 0px;
+	
  
 }
 	}
