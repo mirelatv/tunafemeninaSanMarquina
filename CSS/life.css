@@ -306,4 +306,10 @@ margin-top: -60px;
 .titleReseña{
   margin-top: -46px !important;
 }
+.galery{
+  width: 300px!important;
+}
+figure {
+  margin: 1rem 1rem 1rem 2rem;
+}
 }
