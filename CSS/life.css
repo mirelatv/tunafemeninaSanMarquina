@@ -205,6 +205,26 @@ margin-top: -60px;
 
 /*galerynueva*/
 
+/*videos*/
+.textVideo{
+  margin-bottom: 50px;
+}
+.containerVideos{
+  display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+
+}
+.video{
+  display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   
+  
+}
+.secondVideo{
+  margin-top: 30px;
+}
 
 
 /*REDES SOCIALES*/
@@ -311,5 +331,8 @@ margin-top: -60px;
 }
 figure {
   margin: 1rem 1rem 1rem 2rem;
+}
+.iframe{
+  margin: 10px;
 }
 }
